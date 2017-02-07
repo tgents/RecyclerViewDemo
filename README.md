@@ -61,7 +61,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }
 }
 ```
------------------
 ###Let's break it down!
 In the class declaration, you can see I extend the RecyclerView Adapter. This will provide the 3 basic functions we need to make this adapter work. You will also see that it takes a generic object MyAdapter.ViewHolder. This is another component that we will cover later, but just keep in mind that the Adapter needs to know what ViewHolder you are using.
 ```
